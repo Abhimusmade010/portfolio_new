@@ -6,9 +6,7 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-      {/* Background Glows */}
-      <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse" />
-      <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/20 rounded-full blur-[120px] -z-10 animate-pulse delay-1000" />
+      {/* Background Glows removed for simplicity */}
 
       <div className="max-width-container mx-auto px-6 text-center">
         <motion.div

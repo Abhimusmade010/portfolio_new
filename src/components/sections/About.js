@@ -24,16 +24,13 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+            <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-slate-700/50 shadow-sm">
               <img 
                 src="/Abhishek_Musmade_Photo.png" 
                 alt="Abhishek Musmade" 
-                className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-auto hover:scale-105 transition-transform duration-700"
               />
             </div>
-            {/* Decorative Elements */}
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/20 rounded-full blur-3xl -z-10" />
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-3xl -z-10" />
           </motion.div>
 
           <motion.div
