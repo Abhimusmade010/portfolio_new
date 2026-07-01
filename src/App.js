@@ -9,13 +9,11 @@ import Education from './components/sections/Education';
 import Extracurricular from './components/sections/Extracurricular';
 import Contact from './components/sections/Contact';
 import Footer from './components/ui/Footer';
-import CustomCursor from './components/ui/CustomCursor';
 import ScrollProgress from './components/ui/ScrollProgress';
 
 function App() {
   return (
     <div className="relative">
-      <CustomCursor />
       <ScrollProgress />
       <Navbar />
       <main>
