@@ -44,33 +44,13 @@ const TimelineItem = ({ exp, index }) => (
 const Experience = () => {
   const experiences = [
     {
-      role: "Lead Full Stack Developer",
-      company: "TechNova Solutions",
-      period: "2023 - PRESENT",
+      role: "Project Development Intern",
+      company: "Pune Institute of Computer Technology (PICT)",
+      period: "Jan 2026 – Mar 2026",
       points: [
-        "Architected and deployed a scalable microservices backend using Node.js and AWS.",
-        "Improved application performance by 40% through code optimization and Redis caching.",
-        "Led a team of 5 developers in delivering a high-impact fintech dashboard."
-      ]
-    },
-    {
-      role: "Software Engineering Intern",
-      company: "Innovate Hub",
-      period: "2022 - 2023",
-      points: [
-        "Developed core features for a MERN-stack social platform with 10k+ active users.",
-        "Integrated third-party APIs for real-time data synchronization and notifications.",
-        "Collaborated with UX designers to implement pixel-perfect responsive layouts."
-      ]
-    },
-    {
-      role: "Freelance Web Developer",
-      company: "Global Clients",
-      period: "2021 - 2022",
-      points: [
-        "Delivered 15+ custom web solutions for diverse international clients.",
-        "Specialized in high-conversion landing pages and e-commerce integrations.",
-        "Maintained 100% client satisfaction rate through clear communication and timely delivery."
+        "Worked as a Project Development Intern on ArogyaCare, contributing to the backend development of a healthcare platform enabling the access of nearby doctors, booking appointment, and storage of patient visit.",
+        "Developed robust RESTful APIs and implemented JWT-based authentication, role-based authorization for Doctors, Patients, and Pharmacists, and protected application routes, with input validation using Zod.",
+        "Contributed to repository and live deployment for Arogya."
       ]
     }
   ];

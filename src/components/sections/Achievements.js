@@ -7,28 +7,28 @@ const Achievements = () => {
   const achievements = [
     {
       title: "Smart India Hackathon 2025",
-      organization: "Software Category",
+      organization: "Software Category (Participant)",
       date: "2025",
       icon: Trophy,
-      description: "Successfully participated in the prestigious national level hackathon, tackling real-world problem statements."
+      description: "Participated in the prestigious national level hackathon under the Software Category."
     },
     {
       title: "Poonawala Fincorp Hackathon",
-      organization: "FinTech Innovation",
+      organization: "Participant",
       date: "2025",
       icon: Medal,
       description: "Participant in the 2025 hackathon focusing on innovative financial technology solutions."
     },
     {
-      title: "Solved 300+ DSA Problems",
+      title: "Solved 600+ DSA Problems",
       organization: "Multiple Platforms",
       date: "Ongoing",
       icon: Code,
-      description: "Consistent problem solver on LeetCode, CodeChef, HackerRank, and GeeksforGeeks."
+      description: "Consistent problem solver across LeetCode, CodeChef, HackerRank, and GeeksforGeeks."
     },
     {
-      title: "Pradnya-INC’26 Finalist",
-      organization: "Coding Competition",
+      title: "Pradnya-INC’26",
+      organization: "Pre-Final Round, Coding Competition",
       date: "2026",
       icon: Star,
       description: "Reached the Pre-Final round of the Pradnya-INC’26 Coding Competition."

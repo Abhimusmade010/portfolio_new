@@ -6,9 +6,9 @@ import { User, Target, Coffee, Heart } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { label: "CGPA", value: "9.332", icon: Target },
-    { label: "Projects", value: "5+", icon: Coffee },
-    { label: "DSA Problems", value: "300+", icon: Heart },
+    { label: "CGPA", value: "9.33/10", icon: Target },
+    { label: "DSA Problems", value: "600+", icon: Heart },
+    { label: "Hackathons", value: "2+", icon: Coffee },
   ];
 
   return (
@@ -47,13 +47,10 @@ const About = () => {
               Who am I?
             </h3>
             <p className="text-slate-400 mb-6 leading-relaxed text-lg">
-              I'm an Information Technology student at **Pune Institute Of Computer Technology**, 
-              passionate about full-stack development and problem-solving.
+              I'm a Mern Stack Developer with experience in Backend technologies and skilled in designing backend systems and optimizing for performance.
             </p>
-            <p className="text-slate-400 mb-10 leading-relaxed">
-              With a strong foundation in C++, Data Structures, and Algorithms, I enjoy 
-              building scalable web applications using the MERN stack. My interests also 
-              extend to AI-powered solutions and high-performance backend architectures.
+            <p className="text-slate-400 mb-10 leading-relaxed text-lg">
+              Always excited to explore new technologies, solve problems, and enhance application efficiency.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

@@ -29,37 +29,37 @@ const Skills = () => {
     {
       title: "Languages",
       icon: Terminal,
-      skills: ["C++", "JavaScript", "SQL", "Java (OOP)"],
+      skills: ["C", "C++", "JavaScript", "Java"],
       delay: 0.1
     },
     {
-      title: "Frontend",
+      title: "Web Technologies",
       icon: Layout,
-      skills: ["HTML", "CSS", "React.js", "Tailwind CSS"],
+      skills: ["HTML", "CSS", "ReactJs", "NodeJs", "ExpressJs", "JWT"],
       delay: 0.2
-    },
-    {
-      title: "Backend",
-      icon: Settings,
-      skills: ["Node.js", "Express.js", "REST APIs", "JWT"],
-      delay: 0.3
     },
     {
       title: "Databases",
       icon: Database,
       skills: ["MongoDB", "MySQL", "Redis"],
-      delay: 0.4
+      delay: 0.3
     },
     {
       title: "Tools",
+      icon: Settings,
+      skills: ["SQL WorkBench", "MongoDB Atlas", "Git", "GitHub", "Postman", "Swagger", "VS Code"],
+      delay: 0.4
+    },
+    {
+      title: "Cloud & APIs",
       icon: Code2,
-      skills: ["Git", "GitHub", "Postman", "Swagger", "VS Code"],
+      skills: ["AWS S3", "Cloudinary", "Gemini AI"],
       delay: 0.5
     },
     {
-      title: "Core CS",
+      title: "Coursework",
       icon: Cpu,
-      skills: ["Data Structures", "Algorithms", "Operating System", "DBMS", "Computer Networks"],
+      skills: ["OOP", "OS", "DSA", "DBMS", "CN", "Software Engineering"],
       delay: 0.6
     }
   ];

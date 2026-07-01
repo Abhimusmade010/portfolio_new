@@ -42,8 +42,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          An Information Technology student at Pune Institute of Computer Technology. 
-          I build scalable web solutions with the MERN stack and AI integration.
+          Mern Stack Developer with experience in Backend technologies and skilled in designing backend systems and optimizing for performance. Always excited to explore new technologies, solve problems, and enhance application efficiency.
         </motion.p>
 
         <motion.div

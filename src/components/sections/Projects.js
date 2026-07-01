@@ -68,44 +68,31 @@ const ProjectCard = ({ project, index }) => (
 const Projects = () => {
   const projects = [
     {
-      title: "Arogya Healthcare",
-      description: "Gemini AI-powered health assistant for medical queries and secure video consultations.",
+      title: "FixHub",
+      description: "College Hardware/Software Issue Management Platform. Dec 2025 – Jul 2026",
       features: [
-        "AI-powered medical query handling",
-        "Integrated WebRTC/Jitsi video calls",
-        "Role-based dynamic dashboards",
-        "Cloudinary asset management"
+        "Complaint Management System following MVC architecture",
+        "JWT authentication, Zod input validation, RBAC",
+        "Automated workflow with AWS S3 file storage & Nodemailer",
+        "Secure REST APIs with search, filtering, and Excel export"
       ],
-      tags: ["React", "Node.js", "MongoDB", "Gemini AI", "WebRTC"],
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop",
-      github: "https://github.com/Abhimusmade010/ArogyaAi",
-      live: "https://deploymentarogya.vercel.app"
+      tags: ["Node.js", "Express.js", "ReactJs", "MongoDB", "JWT", "AWS S3"],
+      image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop",
+      github: "https://github.com/Abhimusmade010/project1-backend",
     },
     {
       title: "FindYourStay",
-      description: "Scalable hotel booking platform with RBAC and atomic database operations.",
+      description: "Scalable hotel booking platform with Role Based Access Control. Apr 2026 – Jun 2026",
       features: [
-        "RBAC for Customers & Admins",
-        "MongoDB Transactions for atomicity",
-        "Redis caching for performance",
-        "Service-layer MVC pattern"
+        "RBAC for Customers, Hotel Admins, and SuperAdmin",
+        "Booking lifecycle management using MongoDB Transactions",
+        "Integrated Redis caching for Hotels",
+        "Cloudinary integration for media delivery"
       ],
-      tags: ["Node.js", "Express", "MongoDB", "Redis", "React"],
+      tags: ["Node.js", "Express.js", "ReactJs", "MongoDB", "JWT", "Redis"],
       image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
       github: "https://github.com/Abhimusmade010/findYourStay",
-    },
-    {
-      title: "Campus Hardware Issue Mgmt",
-      description: "Full-stack campus issue reporting platform for faculty and admins.",
-      features: [
-        "Secure JWT authentication",
-        "Complaint lifecycle tracking",
-        "Role-based access control",
-        "Real-time status updates"
-      ],
-      tags: ["MERN Stack", "JWT", "REST API", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop",
-      github: "https://github.com/Abhimusmade010/project1-backend",
+      live: "https://github.com/Abhimusmade010/findYourStay"
     }
   ];
 
@@ -113,7 +100,7 @@ const Projects = () => {
     <section id="projects" className="py-24 bg-white/[0.02]">
       <div className="max-width-container mx-auto px-6">
         <SectionHeader title="Projects" subtitle="Innovation & Impact" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {projects.map((project, index) => (
             <ProjectCard key={project.title} project={project} index={index} />
           ))}
